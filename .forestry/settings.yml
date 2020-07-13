@@ -20,7 +20,7 @@ sections:
   label: Data
 - type: directory
   path: content/authors
-  label: Authors
+  label: Author
   create: all
   match: "**/_index.md"
   templates:
