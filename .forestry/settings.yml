@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: content/Biner-kehidupan
+  label: Biner Kehidupan
+  match: "**/*"
+  read_only: true
 - type: heading
   label: Content
 - type: document
